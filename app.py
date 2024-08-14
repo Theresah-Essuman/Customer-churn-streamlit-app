@@ -11,7 +11,7 @@ st.title("Embedded ML Model Analysis App")
 
  
  # About the app
-st.markdown.title("About This App")
+st.markdown('### About the app')
 
     
 st.markdown("""   
@@ -40,3 +40,32 @@ st.markdown("""
           
         """)
 
+
+ # User Benefits
+
+st.markdown("#### User Benefits")
+st.markdown("""
+        - **Decision-driven decisions:** Make data-driven decisions effortlessly harnessing the power of a data app that integrates analytics, machine learning and predictions.
+        - **Improve Customer Retention:** Identify at-risk customers and implement proactive retention strategies.
+        - **Optimize Marketing Strategies:** Customize marketing efforts to effectively target potential churners.
+        - **Enhance Business Performance:** Lower churn rates and boost customer lifetime value.
+        """)
+
+
+st.subheader("Need consultation")
+st.markdown("Have questions or need insights?")
+
+# Markdown for Email and LinkedIn badges
+st.markdown(
+    """
+    [![Email](https://img.shields.io/badge/Email-Contact-blue)](mailto:hasereth9@gmail.com)&nbsp;
+    [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/theresah-essuman)&nbsp;
+    """, 
+    unsafe_allow_html=True
+)
+
+# Button to navigate to the GitHub repository
+if st.button('Go to GitHub Repository'):
+    st.write('[Repository on GitHub](https://github.com/Theresah-Essuman/Embed-ML-models-in-Web-Frameworks-with-Streamlit-.git)')
+    
+    

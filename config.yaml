@@ -1,0 +1,10 @@
+credentials:
+  usernames:
+    TheresahEssuman:
+      email: hasereth9@gmail.com
+      name: Theresah Essuman
+      password: Effort
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name

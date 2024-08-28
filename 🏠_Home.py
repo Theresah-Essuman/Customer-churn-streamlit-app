@@ -41,6 +41,24 @@ st.markdown("""
         """)
 
 
+
+ # How to run the application is a development environment
+st.write("#### How to run the application")
+with st.container(border=True):
+            st.code("""
+                # Create the virtual environemnt
+                 py -m venv virtual
+                
+                # Activate the environment
+                \virtual\Scripts\activate 
+                
+                # Run the app
+                streamlit run 🏠_Home.py            
+            """)
+
+
+
+
  # User Benefits
 
 st.markdown("#### User Benefits")
